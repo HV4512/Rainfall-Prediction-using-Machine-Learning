@@ -14,10 +14,10 @@
   4. ### Seaborn:
 	  Seaborn is a library for making statistical graphics in Python. It builds on top of matplotlib and integrates closely with pandas data structures. Seaborn helps you explore and understand your data. Its plotting functions operate on dataframes and arrays containing whole datasets and internally perform the necessary semantic mapping and statistical aggregation to produce informative plots. Its dataset-oriented, declarative API lets you focus on what the different elements of your plots mean, rather than on the details of how to draw them.
   
-  5. ### Sklearn:
+  5. # Sklearn:
 	  Scikit-learn (Sklearn) is the most useful and robust library for machine learning in Python. It provides a selection of efficient tools for machine learning and statistical modeling including classification, regression, clustering and dimensionality reduction via a consistence interface in Python.
 
-* # Loading Dataset:
+* Loading Dataset:
   
   We have used Rain in Australia Dataset from Kaggle. We imported the dataset into our Google Colab in the following way:
 
@@ -25,9 +25,9 @@
 	      Selected the dataset of our choice and copied the URL.
  
     2. ### Step 2: Downloading API Credentials.
-	      To download data from Kaggle, we needed to authenticate with the Kaggle services. For this purpose, we needed an API token. This token can be easily generated from the profile section of our Kaggle account. Simply, navigated to your Kaggle profile and then, Clicked the Account tab and then scrolled down to the API section and Clicked on "Create New API Token" button.
+	      To To download data from Kaggle, we needed to authenticate with the Kaggle services. For this purpose, we needed an API token. This token can be easily generated from the profile section of our Kaggle account. Simply, navigated to your Kaggle profile and then, Clicked the Account tab and then scrolled down to the API section and Clicked on "Create New API Token" button.
         
-        A file named “kaggle.json” was downloaded which contains the username and the API key. 
+      A  A file named “kaggle.json” was downloaded which contains the username and the API key. 
 
     3. ### Step 3: Settig up the Colab Notebook.
 	      Fired up a Google Colab notebook and connected it to the cloud instance. Then, uploaded the “kaggle.json” file that we just downloaded from Kaggle.
