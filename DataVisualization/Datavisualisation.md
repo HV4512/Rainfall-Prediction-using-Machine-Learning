@@ -6,9 +6,9 @@ Some of the Data Visualization methods are:
 - Distribution Plot
 - Joint Plot
 - Scatter Plot
-- Violin plot
-- Count plot
-- Pair Plot
+- Violin plots
+- Count plots
+- Pair Plots
 
 ## 1.Distribution Plot
 ` A Distplot or distribution plot, depicts the variation in the data distribution. Seaborn Distplot represents the overall distribution of continuous data variables. The below graph depicts the plotting of data for various variables in the dataset.`
